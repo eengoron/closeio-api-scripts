@@ -36,12 +36,11 @@ lead_results = api.get('lead', params={
 
 ### Running a script
 ```bash
-$ git clone https://github.com/closeio-api-scripts.git
+$ git clone https://github.com/closeio/closeio-api-scripts.git
 $ cd closeio-api-scripts
 $ virtualenv venv
 $ source venv/bin/activate
-$ pip -U -r requirements.txt
-$ python setup.py install
+$ pip install -r requirements.txt
 $ python scripts/merge_leads.py -k MYAPIKEY 
 ...
 

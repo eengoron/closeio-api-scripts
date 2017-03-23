@@ -10,8 +10,7 @@ Setup
 1. `cd closeio-api-scripts`
 1. `virtualenv-2.7 venv`
 1. `. venv/bin/activate`
-1. `python setup.py install`
-1. `pip install -U -r requirements.txt`
+1. `pip install -r requirements.txt`
 
 
 How to run the CSV importing script
